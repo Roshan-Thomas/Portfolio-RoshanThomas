@@ -1,4 +1,5 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import Layout from '../components/Layout';
 import Footer from '../components/Footer';
@@ -60,27 +61,7 @@ const img_set_2 = [
     desc: 'Be one with the present',
   },
 ];
-const img_set_3 = [
-  {
-    src: require('../assets/images/gallery/fulls/08.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/08.jpg'),
-    title: 'Give away',
-    desc: 'Be one with the empathy',
-  },
-  {
-    src: require('../assets/images/gallery/fulls/09.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/09.jpg'),
-    title: 'Moment',
-    desc: 'Be one with the moment',
-  },
-  {
-    src: require('../assets/images/gallery/fulls/10.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/10.jpg'),
-    title: 'Serenity',
-    desc: 'Be one with the purity',
-    full: true,
-  },
-];
+
 const IndexPage = () => (
   <Layout>
     <div id="wrapper">
@@ -95,7 +76,7 @@ const IndexPage = () => (
 
       <section id="first">
         <header>
-          <h2>Magna sed nullam nisl adipiscing</h2>
+          <h2>About Me</h2>
         </header>
         <div className="content">
           <p>
@@ -115,7 +96,7 @@ const IndexPage = () => (
 
       <section>
         <header>
-          <h2>Feugiat consequat tempus ultrices</h2>
+          <h2>My Skills</h2>
         </header>
         <div className="content">
           <p>
@@ -124,12 +105,12 @@ const IndexPage = () => (
             condimentum.
           </p>
           <ul className="feature-icons">
-            <li className="icon fa-laptop">Consequat tempus</li>
-            <li className="icon fa-bolt">Etiam adipiscing</li>
-            <li className="icon fa-signal">Libero nullam</li>
-            <li className="icon fa-gear">Blandit condimentum</li>
-            <li className="icon fa-map-marker">Lorem ipsum dolor</li>
-            <li className="icon fa-code">Nibh amet venenatis</li>
+            <li className="icon fa-laptop">Python</li>
+            <li className="icon fa-bolt">C++</li>
+            <li className="icon fa-signal">Django</li>
+            <li className="icon fa-gear">Vue</li>
+            <li className="icon fa-address-card">React</li>
+            <li className="icon fa-code">Azure</li>
           </ul>
           <p>
             Vehicula ultrices sed ultricies condimentum. Magna sed etiam
@@ -141,23 +122,20 @@ const IndexPage = () => (
 
       <section>
         <header>
-          <h2>Ultrices erat magna sed condimentum</h2>
+          <h2>My Projects</h2>
         </header>
         <div className="content">
-          <p>
-            <strong>Integer mollis egestas</strong> nam maximus erat id euismod
-            egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam.
-          </p>
-
           <section>
             <header>
-              <h3>Erat aliquam</h3>
+              <h3>Django E-commerce Website</h3>
               <p>
-                Vehicula ultrices dolor amet ultricies et condimentum. Magna sed
-                etiam consequat, et lorem adipiscing sed dolor sit amet,
-                consectetur amet do eiusmod tempor incididunt ipsum suspendisse
-                ultrices gravida.
+              The website displays products. Users can add and remove products to/from their cart while 
+              also specifying the quantity of each item. They can then enter their address and choose Stripe 
+              to handle the payment processing.
+              <FontAwesomeIcon icon={['fab', 'fa-react']} size="7x" />
               </p>
+              <a href="https://github.com/Roshan-Thomas/Django-Ecommerce-Website">Link to Github Repository</a>
+              {/* TODO: Add github icon to the link */}
             </header>
             <div className="content">
               <Gallery images={img_set_1} />
@@ -166,13 +144,15 @@ const IndexPage = () => (
 
           <section>
             <header>
-              <h3>Nisl consequat</h3>
+              <h3>Weather App (Vue.js)</h3>
               <p>
-                Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-                aliquam sed facilisis ante interdum congue. Integer mollis, nisl
-                amet convallis, porttitor magna ullamcorper, amet mauris. Ut
-                magna finibus nisi nec lacinia ipsum maximus.
+              The app is a weather application, which shows the temperature of different cities and 
+              countries around the world. Depending on the temperature, the background image changes 
+              from cold to hot. This gives a visual aid to the user. For this project, I used the 
+              OpenWeatherMap API, to find the live weather forcast.
               </p>
+              <a href="https://github.com/Roshan-Thomas/vue-weather-app">Link to Github Repository</a>
+              {/* TODO: Add github icon to the link */}
             </header>
             <div className="content">
               <div className="gallery">
@@ -181,46 +161,6 @@ const IndexPage = () => (
             </div>
           </section>
 
-          <section>
-            <header>
-              <h3>Lorem gravida</h3>
-              <p>
-                Proin aliquam facilisis ante interdum. Sed nulla amet lorem
-                feugiat tempus aenean ornare velit lacus, ac varius sed enim
-                lorem ullamcorper dolore. ac varius enim lorem ullamcorper
-                dolore. Proin aliquam facilisis.
-              </p>
-            </header>
-            <div className="content">
-              <div className="gallery">
-                <Gallery images={img_set_3} />
-              </div>
-            </div>
-          </section>
-        </div>
-      </section>
-
-      <section>
-        <header>
-          <h2>Duis sed adpiscing veroeros amet</h2>
-        </header>
-        <div className="content">
-          <p>
-            <strong>Elements</strong> This starter contains all elements for a
-            page. Check it out
-          </p>
-          <ul className="actions">
-            <li>
-              <Link to="/Elements" className="button primary large">
-                Goto Elements Page
-              </Link>
-            </li>
-            {/* <li>
-              <a href="/#" className="button large">
-                Learn More
-              </a>
-            </li> */}
-          </ul>
         </div>
       </section>
 

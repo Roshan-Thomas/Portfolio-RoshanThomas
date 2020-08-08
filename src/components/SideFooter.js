@@ -24,7 +24,7 @@ export default function SideFooter() {
         )}
 
         <li>
-          <h3>Elsewhere</h3>
+          <h3>Social Links</h3>
           <ul className="icons">
             {config.socialLinks.map(social => {
               const { icon, name, url } = social;
