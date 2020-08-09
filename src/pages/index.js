@@ -6,8 +6,8 @@ import Footer from '../components/Footer';
 import Header from '../components/Header';
 import SideFooter from '../components/SideFooter';
 
-import heroImage from '../assets/images/pic01.jpg';
-import pic2 from '../assets/images/pic02.jpg';
+import heroImage from '../assets/images/hero.png';
+import pic2 from '../assets/images/about-me-pic.png';
 import Gallery from '../components/Gallery';
 import ContactForm from '../components/ContactForm';
 import { Link } from 'gatsby';
@@ -80,13 +80,16 @@ const IndexPage = () => (
         </header>
         <div className="content">
           <p>
-            <strong>Lorem ipsum dolor</strong> sit amet consectetur adipiscing
-            elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad
-            litora torquent per conubia nostra, per inceptos himenaeos. Etiam
-            tristique libero eu nibh porttitor amet fermentum. Nullam venenatis
-            erat id vehicula ultrices sed ultricies condimentum. Magna sed etiam
-            consequat, et lorem adipiscing sed nulla. Volutpat nisl et tempus et
-            dolor libero, feugiat magna tempus, sed et lorem adipiscing.
+          I am a sophomore at <strong>Texas A&M University at Qatar</strong>. My major is <i>Electrical Engineer and Computer Science</i>. 
+          I am very passionate about programming. I have a wide array of skills, including web designing, 
+          prototyping, and full-stack app development. 
+          </p>
+          <p>
+          My aim is to become an entrepreneur and help people and create a program
+          that will make their lives easier. In this day and age, there are so many ideas, 
+          but to make that a reality is complicated. I want to be a part of a dream which 
+          will revolutionize how people live on this earth. 
+          <strong>I want to transform ideas to realities. </strong>
           </p>
           <span className="image main">
             <img src={pic2} alt="" />

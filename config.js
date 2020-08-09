@@ -8,7 +8,7 @@ module.exports = {
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/roshan-thomas/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Roshan Thomas',
+  heading: 'Roshan Sunil Thomas',
   subHeading: 'Full-Stack Developer',
   // social
   socialLinks: [

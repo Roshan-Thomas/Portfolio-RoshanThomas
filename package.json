@@ -1,14 +1,14 @@
 {
-  "name": "gatsby-starter-paradigmshift",
+  "name": "roshan-thomas-portfolio",
   "version": "0.0.1",
   "description": "Gatsby.js V2 starter template based on Paradigm Shift by HTML5 UP",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-paradigmshift.git"
+    "url": "git+https://github.com/Roshan-Thomas/Portfolio-RoshanThomas"
   },
   "author": {
-    "name": "Anubhav Srivastava",
-    "email": "anubhav.srivastava00@gmail.com"
+    "name": "Roshan Thomas",
+    "email": "roshan.sunil.thomas@gmail.com"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
