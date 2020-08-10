@@ -10,55 +10,58 @@ import heroImage from '../assets/images/hero.png';
 import pic2 from '../assets/images/about-me-pic.png';
 import Gallery from '../components/Gallery';
 import ContactForm from '../components/ContactForm';
-import { Link } from 'gatsby';
 
 const img_set_1 = [
   {
-    src: require('../assets/images/gallery/fulls/01.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/01.jpg'),
-    title: 'Great Sky',
-    desc: 'Be one with the Universe',
+    src: require('../assets/images/gallery/fulls/01.png'),
+    thumbnail: require('../assets/images/gallery/fulls/01.png'),
+    title: 'Landing Page',
+    desc: 'Landing Page for ecommerce website',
     full: true,
   },
   {
-    src: require('../assets/images/gallery/fulls/02.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/02.jpg'),
-    title: 'High Mountains',
-    desc: 'Be one with the mountains',
+    src: require('../assets/images/gallery/fulls/02.png'),
+    thumbnail: require('../assets/images/gallery/fulls/02.png'),
+    title: 'Product Page',
+    desc: 'Landing Page for ecommerce website',
+    full: true,
   },
   {
-    src: require('../assets/images/gallery/fulls/03.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/03.jpg'),
-    title: 'Any time ',
-    desc: 'Be one with the time',
+    src: require('../assets/images/gallery/fulls/03.png'),
+    thumbnail: require('../assets/images/gallery/fulls/03.png'),
+    title: 'Admin Page ',
+    desc: 'Admin Page  for ecommerce website',
+    full: true,
   },
   {
-    src: require('../assets/images/gallery/fulls/04.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/04.jpg'),
-    title: 'Any source of light',
-    desc: 'Be one with the light',
+    src: require('../assets/images/gallery/fulls/05.png'),
+    thumbnail: require('../assets/images/gallery/fulls/05.png'),
+    title: 'Payment Page',
+    desc: 'Payment Page for ecommerce website',
+    full: true,
+  },
+  {
+    src: require('../assets/images/gallery/fulls/06.png'),
+    thumbnail: require('../assets/images/gallery/fulls/06.png'),
+    title: 'Signup Page',
+    desc: 'Signup Page for ecommerce website',
     full: true,
   },
 ];
 const img_set_2 = [
   {
-    src: require('../assets/images/gallery/fulls/05.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/05.jpg'),
+    src: require('../assets/images/gallery/fulls/07.png'),
+    thumbnail: require('../assets/images/gallery/fulls/07.png'),
     title: 'Any Curiosity',
     desc: 'Be one with the curiosity',
     full: true,
   },
   {
-    src: require('../assets/images/gallery/fulls/06.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/06.jpg'),
+    src: require('../assets/images/gallery/fulls/08.png'),
+    thumbnail: require('../assets/images/gallery/fulls/08.png'),
     title: 'Any source of enlightenment',
     desc: 'Be one with the soul',
-  },
-  {
-    src: require('../assets/images/gallery/fulls/07.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/07.jpg'),
-    title: 'Be in present',
-    desc: 'Be one with the present',
+    full: true,
   },
 ];
 
@@ -80,12 +83,13 @@ const IndexPage = () => (
         </header>
         <div className="content">
           <p>
-          I am a sophomore at <strong>Texas A&M University at Qatar</strong>. My major is <i>Electrical Engineer and Computer Science</i>. 
+          I am a sophomore at <strong>Texas A&M University at Qatar</strong>. My major is  
+          <strong><i> Electrical Engineer and Computer Science</i></strong>. 
           I am very passionate about programming. I have a wide array of skills, including web designing, 
           prototyping, and full-stack app development. 
           </p>
           <p>
-          My aim is to become an entrepreneur and help people and create a program
+          My aim is to become an <b>entrepreneur</b> and help people and create a program
           that will make their lives easier. In this day and age, there are so many ideas, 
           but to make that a reality is complicated. I want to be a part of a dream which 
           will revolutionize how people live on this earth. 
@@ -108,11 +112,11 @@ const IndexPage = () => (
             condimentum.
           </p>
           <ul className="feature-icons">
-            <li className="icon fa-laptop">Python</li>
+            <li className="icon fa-bank">Python</li>
             <li className="icon fa-bolt">C++</li>
             <li className="icon fa-signal">Django</li>
             <li className="icon fa-gear">Vue</li>
-            <li className="icon fa-address-card">React</li>
+            <li className="icon fa-address-book">React</li>
             <li className="icon fa-code">Azure</li>
           </ul>
           <p>
@@ -137,28 +141,34 @@ const IndexPage = () => (
               to handle the payment processing.
               <FontAwesomeIcon icon={['fab', 'fa-react']} size="7x" />
               </p>
-              <a href="https://github.com/Roshan-Thomas/Django-Ecommerce-Website">Link to Github Repository</a>
+              <a href="https://github.com/Roshan-Thomas/Django-Ecommerce-Website" className="icon fa-github"> Link to Github Repository</a>
               {/* TODO: Add github icon to the link */}
             </header>
             <div className="content">
+              <p>Click on the images to see them</p>
+              {/* TODO: Rezise the images to fit in thumbnail views */}
               <Gallery images={img_set_1} />
             </div>
           </section>
-
+      
           <section>
             <header>
               <h3>Weather App (Vue.js)</h3>
               <p>
               The app is a weather application, which shows the temperature of different cities and 
               countries around the world. Depending on the temperature, the background image changes 
-              from cold to hot. This gives a visual aid to the user. For this project, I used the 
+              from cold to hot. This gives a visual aid to the user. 
+              </p>
+              <p>
+              For this project, I used the 
               OpenWeatherMap API, to find the live weather forcast.
               </p>
-              <a href="https://github.com/Roshan-Thomas/vue-weather-app">Link to Github Repository</a>
-              {/* TODO: Add github icon to the link */}
+              <a href="https://github.com/Roshan-Thomas/vue-weather-app" className="icon fa-github"> Link to Github Repository</a>
             </header>
             <div className="content">
               <div className="gallery">
+                <p>Click on the images to see them</p>
+                {/* TODO: Rezise the images to fit in thumbnail views */}
                 <Gallery images={img_set_2} />
               </div>
             </div>

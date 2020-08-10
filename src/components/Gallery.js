@@ -78,7 +78,7 @@ class Gallery extends Component {
         <Lightbox
           currentImage={this.state.currentImage}
           images={this.props.images.map(img => {
-            img.caption = `${img.title} - ${img.desc}`;
+            img.caption = `${img.desc}`;
             return img;
           })}
           isOpen={this.state.lightboxIsOpen}
