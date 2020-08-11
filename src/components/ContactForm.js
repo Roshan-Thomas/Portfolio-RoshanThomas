@@ -15,7 +15,6 @@ export default function ContactForm() {
           name="contact-form"
           method="post"
           data-netlify="true"
-          data-netlify-honeypot="bot-field"
         >
           <div className="fields">
             <div className="field half">
