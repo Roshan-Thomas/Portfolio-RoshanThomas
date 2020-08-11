@@ -34,13 +34,6 @@ const img_set_1 = [
     full: true,
   },
   {
-    src: require('../assets/images/gallery/fulls/05.png'),
-    thumbnail: require('../assets/images/gallery/fulls/05.png'),
-    title: 'Payment Page',
-    desc: 'Payment Page for ecommerce website',
-    full: true,
-  },
-  {
     src: require('../assets/images/gallery/fulls/06.png'),
     thumbnail: require('../assets/images/gallery/fulls/06.png'),
     title: 'Signup Page',
@@ -137,20 +130,26 @@ const IndexPage = () => (
               <h3>Django E-commerce Website</h3>
               <p>
               The website displays products. Users can add and remove products to/from their cart while 
-              also specifying the quantity of each item. They can then enter their address and choose Stripe 
+              also specifying the quantity of each item. 
+              </p>
+              <p>
+              They can then enter their address and choose Stripe 
               to handle the payment processing.
               <FontAwesomeIcon icon={['fab', 'fa-react']} size="7x" />
               </p>
-              <a href="https://github.com/Roshan-Thomas/Django-Ecommerce-Website" className="icon fa-github"> Link to Github Repository</a>
+              <a href="https://github.com/Roshan-Thomas/Django-Ecommerce-Website" className="icon fa-github"> <b>Link to Github Repository</b></a>
               {/* TODO: Add github icon to the link */}
             </header>
             <div className="content">
               <p>Click on the images to see them</p>
               {/* TODO: Rezise the images to fit in thumbnail views */}
               <Gallery images={img_set_1} />
+              <br></br>
+              <p>Check out the github repo to see more screenshots</p>
+              <a href="https://github.com/Roshan-Thomas/Django-Ecommerce-Website" className="icon fa-github"> <b>Link to Github Repository</b></a>
             </div>
           </section>
-      
+          <hr></hr>
           <section>
             <header>
               <h3>Weather App (Vue.js)</h3>
@@ -163,13 +162,14 @@ const IndexPage = () => (
               For this project, I used the 
               OpenWeatherMap API, to find the live weather forcast.
               </p>
-              <a href="https://github.com/Roshan-Thomas/vue-weather-app" className="icon fa-github"> Link to Github Repository</a>
+              <a href="https://github.com/Roshan-Thomas/vue-weather-app" className="icon fa-github"> <b>Link to Github Repository</b></a>
             </header>
             <div className="content">
               <div className="gallery">
                 <p>Click on the images to see them</p>
                 {/* TODO: Rezise the images to fit in thumbnail views */}
                 <Gallery images={img_set_2} />
+                <a href="https://github.com/Roshan-Thomas/vue-weather-app" className="icon fa-github"> <b>Link to Github Repository</b></a>
               </div>
             </div>
           </section>

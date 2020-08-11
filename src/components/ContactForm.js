@@ -11,7 +11,12 @@ export default function ContactForm() {
           ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor
           mattis sagittis.
         </p>
-        <form>
+        <form
+          name="contact-form"
+          method="post"
+          data-netlify="true"
+          data-netlify-honeypot="bot-field"
+        >
           <div className="fields">
             <div className="field half">
               <input type="text" name="name" id="name" placeholder="Name" />
