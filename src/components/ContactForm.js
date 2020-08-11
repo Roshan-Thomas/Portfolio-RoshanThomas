@@ -35,11 +35,12 @@ export default function ContactForm() {
           </div>
           <ul className="actions">
             <li>
-              <input
+              <button
                 type="submit"
-                value="Send Message"
                 className="button primary"
-              />
+              >
+                Send Message
+              </button>
             </li>
           </ul>
         </form>
