@@ -168,10 +168,10 @@ const IndexPage = () => (
         </div>
       </section>
 
-      <section>
+      {/* <section>
         <ContactForm />
         <SideFooter />
-      </section>
+      </section> */}
 
       <Footer />
     </div>
