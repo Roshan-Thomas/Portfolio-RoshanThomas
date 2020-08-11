@@ -1,5 +1,4 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import Layout from '../components/Layout';
 import Footer from '../components/Footer';
@@ -135,7 +134,6 @@ const IndexPage = () => (
               <p>
               They can then enter their address and choose Stripe 
               to handle the payment processing.
-              <FontAwesomeIcon icon={['fab', 'fa-react']} size="7x" />
               </p>
               <a href="https://github.com/Roshan-Thomas/Django-Ecommerce-Website" className="icon fa-github"> <b>Link to Github Repository</b></a>
               {/* TODO: Add github icon to the link */}
