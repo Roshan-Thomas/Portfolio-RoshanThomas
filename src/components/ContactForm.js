@@ -33,7 +33,13 @@ export default function ContactForm() {
               />
             </div>
           </div>
-          <ul className="actions">
+          <button
+                type="submit"
+                className="button primary"
+              >
+                Send Message
+              </button>
+          {/* <ul className="actions">
             <li>
               <button
                 type="submit"
@@ -42,7 +48,7 @@ export default function ContactForm() {
                 Send Message
               </button>
             </li>
-          </ul>
+          </ul> */}
         </form>
       </div>
     </>
