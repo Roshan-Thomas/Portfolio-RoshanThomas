@@ -99,9 +99,7 @@ const IndexPage = () => (
         </header>
         <div className="content">
           <p>
-            <strong>Etiam tristique libero</strong> eu nibh porttitor amet
-            fermentum. Nullam venenatis erat id vehicula ultrices sed ultricies
-            condimentum.
+            <strong>My prominent skills include: </strong>
           </p>
           <ul className="feature-icons">
             <li className="icon fa-bank">Python</li>
@@ -111,11 +109,6 @@ const IndexPage = () => (
             <li className="icon fa-address-book">React</li>
             <li className="icon fa-code">Azure</li>
           </ul>
-          <p>
-            Vehicula ultrices sed ultricies condimentum. Magna sed etiam
-            consequat, et lorem adipiscing sed nulla. Volutpat nisl et tempus et
-            dolor libero, feugiat magna tempus, sed et lorem adipiscing.
-          </p>
         </div>
       </section>
 
