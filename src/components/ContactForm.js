@@ -13,7 +13,7 @@ export default function ContactForm() {
         </p>
         <form
           name="contact-form"
-          method="post"
+          method="POST"
           data-netlify="true"
         >
           <div className="fields">
