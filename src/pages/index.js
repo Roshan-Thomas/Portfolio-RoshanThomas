@@ -3,12 +3,10 @@ import React from 'react';
 import Layout from '../components/Layout';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
-import SideFooter from '../components/SideFooter';
 
 import heroImage from '../assets/images/hero.png';
 import pic2 from '../assets/images/about-me-pic.png';
 import Gallery from '../components/Gallery';
-import ContactForm from '../components/ContactForm';
 
 const img_set_1 = [
   {
@@ -85,7 +83,7 @@ const IndexPage = () => (
           that will make their lives easier. In this day and age, there are so many ideas, 
           but to make that a reality is complicated. I want to be a part of a dream which 
           will revolutionize how people live on this earth. 
-          <strong>I want to transform ideas to realities. </strong>
+          <strong> I want to transform ideas to realities. </strong>
           </p>
           <span className="image main">
             <img src={pic2} alt="" />
@@ -128,16 +126,19 @@ const IndexPage = () => (
               They can then enter their address and choose Stripe 
               to handle the payment processing.
               </p>
-              <a href="https://github.com/Roshan-Thomas/Django-Ecommerce-Website" className="icon fa-github"> <b>Link to Github Repository</b></a>
-              {/* TODO: Add github icon to the link */}
+              <a href="https://github.com/Roshan-Thomas/Django-Ecommerce-Website" className="icon fa-github" target="_blank"> 
+                <b> Link to Github Repository</b>
+              </a>
             </header>
             <div className="content">
-              <p>Click on the images to see them</p>
+              <p><strong>Click on the images to enlarge them</strong></p>
               {/* TODO: Rezise the images to fit in thumbnail views */}
               <Gallery images={img_set_1} />
               <br></br>
               <p>Check out the github repo to see more screenshots</p>
-              <a href="https://github.com/Roshan-Thomas/Django-Ecommerce-Website" className="icon fa-github"> <b>Link to Github Repository</b></a>
+              <a href="https://github.com/Roshan-Thomas/Django-Ecommerce-Website" className="icon fa-github" target="_blank"> 
+                <b> Link to Github Repository</b>
+              </a>
             </div>
           </section>
           <hr></hr>
@@ -153,14 +154,18 @@ const IndexPage = () => (
               For this project, I used the 
               OpenWeatherMap API, to find the live weather forcast.
               </p>
-              <a href="https://github.com/Roshan-Thomas/vue-weather-app" className="icon fa-github"> <b>Link to Github Repository</b></a>
+              <a href="https://github.com/Roshan-Thomas/vue-weather-app" className="icon fa-github" target="_blank"> 
+                <b> Link to Github Repository</b>
+              </a>
             </header>
             <div className="content">
               <div className="gallery">
-                <p>Click on the images to see them</p>
+                <p><strong>Click on the images to enlarge them</strong></p>
                 {/* TODO: Rezise the images to fit in thumbnail views */}
                 <Gallery images={img_set_2} />
-                <a href="https://github.com/Roshan-Thomas/vue-weather-app" className="icon fa-github"> <b>Link to Github Repository</b></a>
+                <a href="https://github.com/Roshan-Thomas/vue-weather-app" className="icon fa-github" target="_blank"> 
+                  <b> Link to Github Repository</b>
+                </a>
               </div>
             </div>
           </section>

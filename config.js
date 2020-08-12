@@ -22,6 +22,11 @@ module.exports = {
       name: 'Twitter',
       url: 'https://twitter.com/roshan__thomas',
     },
+    {
+      icon: 'fa-linkedin',
+      name: 'Linkedin',
+      url: 'https://www.linkedin.com/in/roshan-thomas-88b9a618b/',
+    },
   ],
   emailId: 'roshan.sunil.thomas@gmail.com',
   address: 'Doha, Qatar',

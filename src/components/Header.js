@@ -7,6 +7,20 @@ export default function Header() {
     <header>
       <h1>{config.heading}</h1>
       <p>{config.subHeading}</p>
+      <ul className="icons">
+        {config.socialLinks.map(social => {
+          const { icon, name, url } = social;
+          return (
+            <li key={url}>
+              <a href={url} className={`icon ${icon}`} target="_blank">
+                <span className="label">{name}</span>
+              </a>
+            </li>
+          );
+        })}
+      </ul>
+      
+
       <ul className="actions">
         <li>
           <Scroll type="id" element="first">
