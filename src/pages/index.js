@@ -8,6 +8,12 @@ import heroImage from '../assets/images/hero.png';
 import pic2 from '../assets/images/about-me-pic.png';
 import Gallery from '../components/Gallery';
 
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+library.add(fab)
+
 const img_set_1 = [
   {
     src: require('../assets/images/gallery/fulls/01.png'),
@@ -91,7 +97,7 @@ const IndexPage = () => (
         </div>
       </section>
 
-      <section>
+      {/* <section>
         <header>
           <h2>My Skills</h2>
         </header>
@@ -100,15 +106,15 @@ const IndexPage = () => (
             <strong>My prominent skills include: </strong>
           </p>
           <ul className="feature-icons">
-            <li className="icon fa-bank">Python</li>
-            <li className="icon fa-bolt">C++</li>
-            <li className="icon fa-signal">Django</li>
-            <li className="icon fa-gear">Vue</li>
-            <li className="icon fa-address-book">React</li>
-            <li className="icon fa-code">Azure</li>
+            <li>Python</li>
+            <li>C++</li>
+            <li>Django</li>
+            <li>Vue</li>
+            <li>React</li>
+            <li>Azure</li>
           </ul>
         </div>
-      </section>
+      </section> */}
 
       <section>
         <header>
