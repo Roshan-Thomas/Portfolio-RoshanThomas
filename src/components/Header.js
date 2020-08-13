@@ -2,6 +2,7 @@ import React from 'react';
 import Scroll from './Scroll';
 import config from '../../config';
 
+
 export default function Header() {
   return (
     <header>
@@ -31,5 +32,5 @@ export default function Header() {
         </li>
       </ul>
     </header>
-  );
+  )
 }

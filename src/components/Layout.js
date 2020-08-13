@@ -5,6 +5,7 @@ import { StaticQuery, graphql } from 'gatsby';
 
 import '../assets/sass/main.scss';
 
+
 class Layout extends Component {
   constructor(props) {
     super(props);

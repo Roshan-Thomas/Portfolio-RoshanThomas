@@ -3,16 +3,12 @@ import React from 'react';
 import Layout from '../components/Layout';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
+import Navbar from '../components/Navbar';
 
 import heroImage from '../assets/images/hero.png';
 import pic2 from '../assets/images/about-me-pic.png';
 import Gallery from '../components/Gallery';
 
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab } from '@fortawesome/free-brands-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
-library.add(fab)
 
 const img_set_1 = [
   {
@@ -36,13 +32,6 @@ const img_set_1 = [
     desc: 'Admin Page  for ecommerce website',
     full: true,
   },
-  {
-    src: require('../assets/images/gallery/fulls/06.png'),
-    thumbnail: require('../assets/images/gallery/fulls/06.png'),
-    title: 'Signup Page',
-    desc: 'Signup Page for ecommerce website',
-    full: true,
-  },
 ];
 const img_set_2 = [
   {
@@ -63,6 +52,7 @@ const img_set_2 = [
 
 const IndexPage = () => (
   <Layout>
+    {/* <Navbar /> */}
     <div id="wrapper">
       <section className="intro">
         <Header />
@@ -96,25 +86,6 @@ const IndexPage = () => (
           </span>
         </div>
       </section>
-
-      {/* <section>
-        <header>
-          <h2>My Skills</h2>
-        </header>
-        <div className="content">
-          <p>
-            <strong>My prominent skills include: </strong>
-          </p>
-          <ul className="feature-icons">
-            <li>Python</li>
-            <li>C++</li>
-            <li>Django</li>
-            <li>Vue</li>
-            <li>React</li>
-            <li>Azure</li>
-          </ul>
-        </div>
-      </section> */}
 
       <section>
         <header>
