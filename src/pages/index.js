@@ -3,7 +3,6 @@ import React from 'react';
 import Layout from '../components/Layout';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
-import Navbar from '../components/Navbar';
 
 import heroImage from '../assets/images/hero.png';
 import pic2 from '../assets/images/about-me-pic.png';
@@ -52,7 +51,6 @@ const img_set_2 = [
 
 const IndexPage = () => (
   <Layout>
-    {/* <Navbar /> */}
     <div id="wrapper">
       <section className="intro">
         <Header />
