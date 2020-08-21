@@ -48,6 +48,22 @@ const img_set_2 = [
     full: true,
   },
 ];
+const img_set_3 = [
+  {
+    src: require('../assets/images/gallery/fulls/09.jpeg'),
+    thumbnail: require('../assets/images/gallery/fulls/09.jpeg'),
+    title: 'Landing Page',
+    desc: 'Landing Page',
+    full: true,
+  },
+  {
+    src: require('../assets/images/gallery/fulls/10.jpeg'),
+    thumbnail: require('../assets/images/gallery/fulls/10.jpeg'),
+    title: 'Sample news page',
+    desc: 'Sample news page',
+    full: true,
+  },
+];
 
 const IndexPage = () => (
   <Layout>
@@ -101,7 +117,7 @@ const IndexPage = () => (
               They can then enter their address and choose Stripe 
               to handle the payment processing.
               </p>
-              <a href="https://github.com/Roshan-Thomas/Django-Ecommerce-Website" className="icon fa-github" target="_blank"> 
+              <a href="https://github.com/Roshan-Thomas/Django-Ecommerce-Website" className="icon fa-github" target="_blank" rel="noreferrer"> 
                 <b> Link to Github Repository</b>
               </a>
             </header>
@@ -111,7 +127,7 @@ const IndexPage = () => (
               <Gallery images={img_set_1} />
               <br></br>
               <p>Check out the github repo to see more screenshots</p>
-              <a href="https://github.com/Roshan-Thomas/Django-Ecommerce-Website" className="icon fa-github" target="_blank"> 
+              <a href="https://github.com/Roshan-Thomas/Django-Ecommerce-Website" className="icon fa-github" target="_blank" rel="noreferrer"> 
                 <b> Link to Github Repository</b>
               </a>
             </div>
@@ -129,7 +145,7 @@ const IndexPage = () => (
               For this project, I used the 
               OpenWeatherMap API, to find the live weather forcast.
               </p>
-              <a href="https://github.com/Roshan-Thomas/vue-weather-app" className="icon fa-github" target="_blank"> 
+              <a href="https://github.com/Roshan-Thomas/vue-weather-app" className="icon fa-github" target="_blank" rel="noreferrer"> 
                 <b> Link to Github Repository</b>
               </a>
             </header>
@@ -138,7 +154,36 @@ const IndexPage = () => (
                 <p><strong>Click on the images to enlarge them</strong></p>
                 {/* TODO: Rezise the images to fit in thumbnail views */}
                 <Gallery images={img_set_2} />
-                <a href="https://github.com/Roshan-Thomas/vue-weather-app" className="icon fa-github" target="_blank"> 
+                <a href="https://github.com/Roshan-Thomas/vue-weather-app" className="icon fa-github" target="_blank" rel="noreferrer"> 
+                  <b> Link to Github Repository</b>
+                </a>
+              </div>
+            </div>
+          </section>
+          <hr></hr>
+          <section>
+            <header>
+              <h3>Voice Controlled News Reader (React.js)</h3>
+              <p>
+              The app allows you to read the news from anywhere on the internet, from multiple 
+              newspapers. The most important feature about the app is that you dont even have 
+              to touch the mouse to get the news.
+              </p>
+              <p>
+              Everything is activated by voice, and Alan the AI will deliver the latest news, 
+              delivers news based on different categories, delives news based on different 
+              topics and gives the headlines from the top newspapers in the world.
+              </p>
+              <a href="https://github.com/Roshan-Thomas/React-Voice-Controlled-News-Reader" className="icon fa-github" target="_blank" rel="noreferrer"> 
+                <b> Link to Github Repository</b>
+              </a>
+            </header>
+            <div className="content">
+              <div className="gallery">
+                <p><strong>Click on the images to enlarge them</strong></p>
+                {/* TODO: Rezise the images to fit in thumbnail views */}
+                <Gallery images={img_set_3} />
+                <a href="https://github.com/Roshan-Thomas/React-Voice-Controlled-News-Reader" className="icon fa-github" target="_blank" rel="noreferrer"> 
                   <b> Link to Github Repository</b>
                 </a>
               </div>
