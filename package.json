@@ -29,7 +29,7 @@
     "react": "^16.13.1",
     "react-bootstrap": "^1.3.0",
     "react-dom": "^16.13.1",
-    "react-helmet": "^5.2.1",
+    "react-helmet": "^6.1.0",
     "react-images": "^0.5.19",
     "react-scrollspy": "^3.4.2",
     "smoothscroll-polyfill": "^0.4.4"
