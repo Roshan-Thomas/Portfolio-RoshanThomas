@@ -14,7 +14,19 @@ module.exports = {
         pageTransitionDelay: 0,
       },
     },
-    'gatsby-plugin-react-helmet',
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-styled-components`,
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `source sans pro\:300,600,700,300i,600i,700i`,
+          `raleway\:600,800`,
+
+        ],
+        display: 'swap',
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
